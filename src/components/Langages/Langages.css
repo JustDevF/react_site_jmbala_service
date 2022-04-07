@@ -1,0 +1,128 @@
+.langageTitle{
+  text-align: center;
+}
+
+/* section */
+.sectionLangage{
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+.underlineLangages{
+  width: 5rem;
+  height: 0.25rem;
+  background: #016c6b;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7rem;
+}
+
+
+@media screen and (min-width: 992px) {
+  .sectionLangage {
+    width: 95vw;
+  }
+}
+
+/*
+=============== 
+langages
+===============
+*/
+
+.mainLangage {
+  min-height: 100vh;
+  /* using flex because of better browser support */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerLangage {
+  width: 90vw;
+  margin: 5rem auto;
+  background: #fbfbfb;
+  border-radius: var(--radius);
+  padding: 2rem 1rem;
+  max-width: var(--fixed-width);
+  display: grid;
+  gap: 1rem 2rem;
+  margin-top: -70rem;
+  box-shadow: 0 0 20px 2px rgb(0 0 0 / 20%);
+}
+
+.containerLangage h3 {
+  line-height: 1.2;
+  font-weight: 500;
+}
+@media screen and (min-width: 992px) {
+  .containerLangage {
+    display: grid;
+    grid-template-columns: 580px 1fr;
+  }
+}
+.langage {
+  padding: 0.50rem 1rem;
+  border: 2px solid var(--clr-grey-special);
+  margin-bottom: 0.50rem;
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+  background: #ffffff;
+}
+.langage h4 {
+  text-transform: none;
+  line-height: 1.5;
+}
+.langage p {
+  color: #888888;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+}
+.langage header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.langage header h4 {
+  margin-bottom: 0;
+}
+.btnLangage {
+  border-color: transparent;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #016c6b;
+  cursor: pointer;
+  margin-left: 1rem;
+  align-self: center;
+  min-width: 2rem;
+}
+
+@media screen and (min-width: 400px) {
+  
+.containerLangage {
+  margin-top: -24rem;
+}
+.mainLangage {
+  margin-bottom: -20rem;
+}
+.langageTitle{
+  margin-bottom: 1rem;
+}
+}
+@media screen and (min-width: 1200px) {
+  .containerLangage {
+    margin-top: 0rem;
+  }
+  .underlineLangages{
+    margin-bottom: 0rem;
+  }
+  .mainLangage {
+    margin-bottom: 0;
+  }
+}
+

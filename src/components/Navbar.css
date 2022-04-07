@@ -1,0 +1,177 @@
+/*
+=============== 
+Navbar
+===============
+*/
+.navbarContact{
+  display: inherit;
+}
+.navbarContactLikn{
+  max-width: 100%;
+  text-transform: capitalize;
+  background-color: #e87071;
+  color: #fff;
+  font-weight: 700px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  border-radius: 25px;
+  padding: 0 10px;
+  width: fit-content;
+  min-width: 160px;
+  font-size: 16px;
+  transition: all .2s ease-in-out;
+  margin-left: 1rem;
+}
+
+.navbarContactLikn:hover{
+  transition: all .2s;
+  transform: scale(1.130);
+}
+
+.social-icons a {
+  font-size: 1.40rem;
+  margin: 0 0.1rem;
+  color: #000000;
+  transition: var(--transition);
+
+}
+.links-container {
+ margin-left: auto;
+ margin-right: auto;
+ padding-left: 5rem;
+}
+
+
+/* section */
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+.social-icons a:hover {
+  color: #e87071;
+}
+
+
+nav {
+  background: var(--clr-white);
+  box-shadow: var(--light-shadow);
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.nav-toggle {
+  font-size: 1.5rem;
+  color: #016c6b;
+  background: transparent;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  color: var(--clr-primary-1);
+  transform: rotate(90deg);
+}
+.logo {
+  height: 40px;
+  cursor: pointer;
+}
+.links a {
+  color: var(--clr-grey-3);
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: var(--transition);
+}
+.links a:hover {
+  background: #e87071;
+  color: var(--clr-black);
+}
+
+.social-icons {
+  display: none;
+  margin-left: auto;
+}
+
+.links-container {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.show-container {
+  height: 10rem;
+}
+
+
+
+@media screen and (min-width: 400px){
+  .navbarContactLikn{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .navbar{
+    background: #fff;
+  }
+  .nav-center {
+    max-width: 1780px;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .nav-header {
+    padding: 0;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .links-container {
+    height: auto !important;
+  }
+  .links {
+    display: flex;
+  }
+  .links a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
+
+  .social-icons {
+    display: flex;
+  }
+  .navbarContactLikn{
+    display: flex;
+  }
+  
+}
+@media screen and (min-width: 992px) {
+  .section {
+    width: 95vw;
+  }
+  .links a:hover {
+    background: transparent;
+    color: #e87071;
+  }
+  .navbarContactLikn{
+    display: flex;
+  }
+
+  
+}

@@ -1,0 +1,41 @@
+
+.formationSec2{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.formationSec2 p{
+    font-size: 1.2rem;
+}
+
+.formationSec2 li{
+    color: rgb(32, 32, 32);
+    text-align: start;
+    list-style-type: disc;
+}
+
+@media screen and (min-width: 400px) {
+    .formationSec2 p{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 0.7rem;
+    }
+    .formationSec2 li{
+        font-size: 0.8rem;
+        margin-left: 5rem;
+    } 
+  }
+
+  @media screen and (min-width: 992px) {
+    .formationSec2 p{
+        margin-left: 10rem;
+        margin-right: 10rem;
+        font-size: 1.2rem;
+    }
+
+    .formationSec2 li{
+        font-size: 1.2rem;
+        margin-left: 4rem;
+    }
+  }
+  

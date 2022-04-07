@@ -1,0 +1,255 @@
+
+
+
+.containerPresentation{
+  /*border: solid 4px red;*/
+  display: inline-flex;
+  justify-content: center;
+  margin: 4rem 5rem;
+  overflow: hidden;
+}
+
+.presentation1{
+ /* border: solid 4px rgb(68, 255, 0);*/
+  width: 555px;
+  height: 500px;
+  margin-left: 1rem;
+}
+
+.presentation2{
+  /*border: solid 4px rgb(51, 0, 255);*/
+  width: 555px;
+  height: 500px;
+  margin-left: 1rem;
+
+}
+
+
+
+.figure{
+  max-width: 50%;
+  vertical-align: middle;
+}
+
+
+
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  margin-bottom: 0.25rem;
+  background: #016c6b;
+  margin-left: 0;
+  margin-right: auto;
+  justify-items: start;
+  align-items:flex-start;
+}
+
+.hero-Title{
+  font-size: 2.70rem;
+  margin-bottom: 0;
+}
+
+.hero-SubTitle{
+  color: rgb(92, 92, 92);
+  font-weight: lighter;
+  font-size: 2rem;
+}
+.hero-Name{
+  font-size: 1.70rem;
+  margin-top: -2rem;
+  color: rgb(70, 70, 70);
+}
+.hero-NameSubTitle{
+  color: rgb(92, 92, 92);
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+.btnHero1 {
+  margin-right: 1rem ;
+  padding: 7px 15px;
+  font-size: 0.70rem;
+  font-weight: lighter;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background-color: #e87071;
+  border: 1px solid #f84646;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btnHero1:hover {
+  background-color: #e83b3b;
+}
+
+.btnHero2 {
+  margin-right: 1rem ;
+  padding: 7px 15px;
+  font-size: 0.70rem;
+  font-weight: lighter;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #717171;
+  border: 1px solid #373f5059;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btnHero2 a:hover{
+  color: #fff;
+}
+
+.btnHero2:hover {
+    color: #fff;
+    background: #373f50;
+}
+
+
+.btnHeroTitle {
+  padding:5px;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  background: #016c6b;
+  border: 1px solid #016c6b;
+}
+
+.btnHeroTitle:hover{
+  color: rgb(172, 172, 172);
+}
+
+.btnHeroTitle:h{
+  padding-top: 1rem;
+}
+
+
+
+.btnProjet{
+  margin-right: 1rem ;
+  padding: 7px 15px;
+  font-size: 0.70rem;
+  font-weight: lighter;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #016c6b;
+  border: 1px solid #016c6b;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btnProjet:hover {
+    color: #fff;
+    background: #016c6b;
+    border-color: #016c6b;
+}
+
+
+.hero {
+  position: inherit;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.hero-center {
+  width: 90vw;
+  max-width: var(--max-width);
+  display: grid;
+  align-items: center;
+  margin-top: -20rem;
+}
+.hero-info{
+  margin-top: 0;
+}
+.hero-info h1 {
+  text-transform: none;
+}
+
+.hero-info p {
+  max-width: 35em;
+  line-height: 1.8;
+}
+
+.hero-images {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+}
+
+
+@media screen and (min-width: 400px) {
+  .hero-center {
+    margin-top: 0;
+    margin-bottom: -8rem
+  }
+  .phone-img {
+    margin-top: 2rem;
+    width: 25rem;
+    margin-left: -8rem;
+    
+  }
+  .hero-images {
+    display: block;
+    margin-top: -5rem
+  }
+
+  .hero-info{
+    margin-bottom: 2rem;
+  }
+}
+
+/* hero media query */
+@media screen and (min-width: 800px) {
+  .hero {
+    margin-top: 0;
+  }
+  .hero-center {
+    grid-template-columns: 2fr 1fr;
+    margin-left: 2rem;
+  }
+
+  .hero-images {
+    display: block;
+    justify-self: center;
+  }
+  .phone-img {
+    width: 22rem;
+  }
+  
+  .hero-Title{
+    font-size: 4rem;
+  }
+
+  .hero-SubTitle{
+    font-size: 3rem;
+  }
+
+  .hero-Name{
+    font-size: 2rem;
+  }
+
+  .hero-NameSubTitle{
+    font-size: 1.50rem;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  
+  .hero-images {
+    align-self: center;
+  }
+  .phone-img {
+    width: 40rem;
+  }
+}
+
+
+@media screen and (min-width: 1400px) {
+ 
+  .phone-img {
+    width:  40rem;
+  }
+}
+
