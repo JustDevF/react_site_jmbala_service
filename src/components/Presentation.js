@@ -7,7 +7,7 @@ const Presentation = () => {
 
  return (
     <section>
-        <article className='containerPresentation'>
+        <div className='containerPresentation'>
             {/*Présentation */}
             <div className='presentation1'>
                 <h1>JDT MBALA SERVICES</h1>
@@ -21,7 +21,7 @@ const Presentation = () => {
             <div className='presentation2'>
                 <img src={image} alt="image_jdt_mbala_construction" style={{height :'90%'}}/>
             </div>
-        </article>
+        </div>
     </section>
  )
 }

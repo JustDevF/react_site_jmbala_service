@@ -67,7 +67,7 @@ const projet = [
     {
       id: 2,
       title: 'GSB2 - Gestion des locations de matériels',
-      img: './imagesProjet\projet_gsb2_1.PNG',
+      img: './imagesProjet/projet_gsb2_1.PNG',
       desc: `Décembre 2019
       Projet réalisé en binôme.
       Cette réalisation avait pour but de mettre en pratique la méthode MVC appliquée dans le dernier projet mais cette fois-ci dans le langage JAVA + SQL, dans une application de gestion des locations de matériels pour les visiteurs médicaux de GSB.
@@ -97,7 +97,7 @@ export const projetBTS1 = [
     {
       id: 1,
       title: 'Site web marchand',
-      img: './imagesProjet\projet_site_marchand_1.PNG',
+      img: './imagesProjet/projet_site_marchand_1.PNG',
       desc: `Février 2019 - Septembre 2019
       Projet réalisé durant la première année de BTS, durant le deuxième semestre. Il a été initié en groupe de 3 puis le groupe s'est dissocié pour la partie dynamique du site afin de travailler seule.
       Cette réalisation avait pour but de mettre en pratique les notions de dynamisme apprises en PHP dans la conception d'un site marchand dynamique, à rajouter avec toutes les notions vues précédemment en HTML, CSS, SQL et JavaScript avec la classe PDO dans uns second temps.

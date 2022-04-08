@@ -2,6 +2,7 @@ import React from 'react';
 
 import {FaSnapchatSquare, FaYoutube, FaInstagram, FaLaptop, FaRegUser, FaClipboardCheck, FaRegStickyNote, FaRegSun, FaFirefoxBrowser} from 'react-icons/fa';
 
+
 export const links = [
   {
     id: 1,
@@ -141,3 +142,65 @@ export const competences = [
   },
     
 ];
+
+export const services = [
+  {
+    id: 1,
+    image: './Images/jmbala_services_image_agent_de_maintenance_polyvalent.png',
+    name: 'Tous travaux',
+    title: 'Agent de maintenance polyvalent',
+    quote:
+      'Nous assurons l"Entretien, l"installation et les dépannages des vos installations, meubles et votre maison tout en vous assurant un service de qualité dans le respect des règles de sécurité et à la règlementation qui s"y rapport',
+  },
+  {
+    id: 2,
+    image:'./Images/jmbala_services_image_eletricite.jpeg',
+    name: 'Domestique',
+    title: 'Eletricité',
+    quote: 'Nous assurons l"Entretien, l"installation et les dépannages des vos installations, meubles et votre maison tout en vous assurant un service de qualité dans le respect des règles de sécurité et à la règlementation qui s"y rapport',
+  },
+  {
+    id: 3,
+    image:'./Images/jmbala_services_image_peinture.jpg',
+    name: 'Domestique et industrielle',
+    title: 'Peinture',
+    quote:'Nous assurons l"Entretien, l"installation et les dépannages des vos installations, meubles et votre maison tout en vous assurant un service de qualité dans le respect des règles de sécurité et à la règlementation qui s"y rapport',
+  },
+  {
+    id: 4,
+    image:'./Images/jmbala_services_image_carrelage_mural.png',
+    name: 'Domestique',
+    title: 'Carrelage mural',
+    quote: 'Nous assurons l"Entretien, l"installation et les dépannages des vos installations, meubles et votre maison tout en vous assurant un service de qualité dans le respect des règles de sécurité et à la règlementation qui s"y rapport',
+  },
+  {
+    id: 5,
+    image:'./Images/jmbala_services_image_carrelage_sol.jpg',
+    name: 'Domestique',
+    title: 'Carrelage sol',
+    quote:'Nous assurons l"Entretien, l"installation et les dépannages des vos installations, meubles et votre maison tout en vous assurant un service de qualité dans le respect des règles de sécurité et à la règlementation qui s"y rapport',
+  },
+  {
+    id: 6,
+    image:'./Images/jmbala_services_image_plomberie.jpg',
+    name: 'Domestique',
+    title: 'Plomberie',
+    quote: 'Nous assurons l"Entretien, l"installation et les dépannages des vos installations, meubles et votre maison tout en vous assurant un service de qualité dans le respect des règles de sécurité et à la règlementation qui s"y rapport',
+  },
+  {
+    id: 7,
+    image:'./Images/jmbala_services_image_menuiserie.jpg',
+    name: 'Domestique',
+    title: 'Menuiserie',
+    quote: 'Nous assurons l"Entretien, l"installation et les dépannages des vos installations, meubles et votre maison tout en vous assurant un service de qualité dans le respect des règles de sécurité et à la règlementation qui s"y rapport',
+  },
+  {
+    id: 7,
+    image:'./Images/jmbala_services_image_pose_meuble_cuisine.jpg',
+    name: 'Domestique',
+    title: 'Pose meuble cuisine',
+    quote: 'Nous assurons l"Entretien, l"installation et les dépannages des vos installations, meubles et votre maison tout en vous assurant un service de qualité dans le respect des règles de sécurité et à la règlementation qui s"y rapport',
+  },
+  
+];
+
